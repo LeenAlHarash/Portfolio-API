@@ -1,6 +1,4 @@
 from fastapi import FastAPI
-from API.schemaProjects import Project
-
 
 app = FastAPI(
     title="Leen Al Harash – Portfolio API",

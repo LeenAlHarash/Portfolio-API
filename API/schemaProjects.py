@@ -1,3 +1,6 @@
+from typing import List
+from pydantic import BaseModel
+
 class Project(BaseModel):
     id: int
     name: str
