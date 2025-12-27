@@ -4,6 +4,6 @@ from pydantic import BaseModel
 class Project(BaseModel):
     id: int
     name: str
-    type: str
+    category: str
     tech: List[str]
     description: str
