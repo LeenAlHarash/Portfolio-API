@@ -124,9 +124,10 @@ def get_project_by_id(project_id: int):
 def skills():
     return {
         "frontend": ["HTML", "CSS", "JavaScript", "Angular", "TypeScript"],
-        "backend": ["Python", "ASP.NET", "Spring Boot", "Java", "PHP", ],
-        "mobile": ["Kotlin"],
-        "tools": ["Git", "Docker", "Swagger"]
+        "backend": ["ASP.NET Core", "Spring Boot", "API INTEGRATION", "PHP", ],
+        "programming": ["Kotlin", "JFX", "SQL", "Python", "JavaEE", "JavaSE", "C#"],
+        "devops&tools": ["Git", "Docker", "Linux", "CI/CD Pipeline"],
+        "others": ["OOP", "IoT", "Unity"]
     }
 
 
