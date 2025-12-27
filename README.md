@@ -2,15 +2,15 @@
 This repository contains a simple FastAPI backend created to complement my personal portfolio website.
 The API demonstrates backend structure, RESTful endpoints, and Swagger (OpenAPI) documentation, without relying on a database. 
 
-[Portoflio repository](https://github.com/LeenAlHarash/LeenAlHarash.github.io) <br>
-[Portfolio demo](https://leenalharash.github.io/)
+[API Demo <3](https://portfolio-api-8kcj.onrender.com/swagger) <br> 
+[Portoflio repository <3](https://github.com/LeenAlHarash/LeenAlHarash.github.io)    ,    [Portfolio Demo <3](https://leenalharash.github.io/)
 
 
 ## Available endpoints
 - Health Check: GET /api/health
 - Projects: GET /api/projects
 - Skills: GET /api/skills
-- Contact: GET /api/contacts
+- Contact: GET /api/contact
 
 
 ## Tech used
