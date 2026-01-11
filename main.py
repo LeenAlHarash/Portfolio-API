@@ -123,11 +123,10 @@ def get_project_by_id(project_id: int):
 @app.get("/api/skills", tags=["Technical Skills"])
 def skills():
     return {
-        "frontend": ["HTML", "CSS", "JavaScript", "Angular", "TypeScript"],
-        "backend": ["ASP.NET Core", "Spring Boot", "API INTEGRATION", "PHP", ],
-        "programming": ["Kotlin", "JFX", "SQL", "Python", "JavaEE", "JavaSE", "C#"],
-        "devops&tools": ["Git", "Docker", "Linux", "CI/CD Pipeline"],
-        "others": ["OOP", "IoT", "Unity"]
+        "frontend": ["HTML", "CSS", "JavaScript", "TypeScript", "JavaFX"],
+        "backend": ["Python", "PHP", "Kotlin", "SQL", "JavaEE", "JavaSE", "C#"],
+        "frameowrks": ["Angular", "ASP.NET Core", "Spring Boot"],
+        "others": ["OOP", "IoT", "Unity", "Git", "Docker", "Linux", "CI/CD Pipeline", "API INTEGRATION"]
     }
 
 
