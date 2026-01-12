@@ -107,7 +107,14 @@ def projects():
             "category": "Backend API",
             "tech": ["Python", "FastAPI", "Pydantic", "Swagger", "Uvicorn"],
             "description": "Simple portfolio REST API demonstrating FastAPI structure, Pydantic schemas, and Swagger/OpenAPI documentation."
-        }
+        },
+        {
+            "id": 12,
+            "name": "Flame Detection",
+            "category": "Internet of Things",
+            "tech": ["Python", "Raspberry Pi"],
+            "description": "When a flame is detected, the system activates visual indicators (LEDs), an audible buzzer, displays a warning on an LCD screen, sends an email alert and logs the event with a timestamp."
+        }            
     ]
 
 
